@@ -198,3 +198,8 @@ function isExists(elem){
 	return false;
 }
 
+window.onload = function aos_initalization() {
+	AOS.init({
+		duration: 1500,
+	})
+};
