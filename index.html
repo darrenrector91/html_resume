@@ -19,14 +19,18 @@
 	<link href="css/responsive.css" rel="stylesheet">
 	<link rel="stylesheet" href="css/aos.min.css">
 	<link rel="stylesheet" href="css/backTop.css">
+	<link rel="stylesheet" href="css/hover.css">
 
 	
 </head>
-<body>
+<body div id="profile-pic-trigger"></div>
 <!--####################################
 			HEADER
 #####################################-->
 	<header>
+		<div id="profile-name-trigger"></div>
+		<div id="profile-job-title-trigger"></div>
+		<div id="profile-social-icon-trigger"></div>
 		<div class="container">
 			<div class="heading-wrapper animation">
 				<div class="row">
@@ -62,7 +66,6 @@
 			
 		</div><!-- container -->
 	</header>
-	<div class="circle-frame"></div>
 <!--####################################
 			   INTRO
 #####################################-->	
@@ -72,16 +75,13 @@
 				<div class="col-md-1 col-lg-2"></div>
 				<div class="col-md-10 col-lg-8">
 					<div class="intro">
-						<div class="profile-img"><img src="images/profile-pic.png" alt=""></div>
-						<!-- <div class="circle"></div> -->
-						<h2><b>Darren Rector</b></h2>
-						<h4 class="font-yellow">Web & Software Developer</h4>
-						<ul class="information margin-tb-30">
-							<!-- <li><b>BORN : </b>August 25, 1987</li> -->
-							<!-- <li><b>EMAIL : </b><a href="mailto:darren@darrenrector.com">darren@darrenrector.com</a></li> -->
-							<!-- <li><b>MARITAL STATUS : </b>Married</li> -->
-						</ul>
-						<ul class="social-icons">
+						<div class="profile-img" data-aos="fade-down" data-aos-anchor="#profile-pic-trigger"><img src="images/profile-pic.png" alt=""></div>
+						<div class="name-job-title-wrapper">
+							<h2 data-aos="slide-right" data-aos-anchor="#profile-name-trigger"><b >Darren Rector</b></h2>
+						   	<h4 class="font-yellow job-title" data-aos="slide-left" data-aos-anchor="#profile-job-title-trigger">Web & Software Developer</h4>
+						</div>
+						<ul class="information margin-tb-30"></ul>
+						<ul class="social-icons" data-aos="flip-left" data-aos-anchor="#profile-social-icon-trigger">
 							<li><a href="https://www.linkedin.com/in/darrenrector/"><i class="ion-social-linkedin"></i></a></li>
 							<li><a href="https://github.com/darrenrector91"><i class="ion-social-github"></i></a></li>
 							<li><a href="https://twitter.com/mplscoder"><i class="ion-social-twitter"></i></a></li>
