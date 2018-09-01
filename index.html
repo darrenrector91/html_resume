@@ -18,6 +18,8 @@
 	<link href="css/styles.css" rel="stylesheet">
 	<link href="css/responsive.css" rel="stylesheet">
 	<link rel="stylesheet" href="css/aos.min.css">
+	<link rel="stylesheet" href="css/backTop.css">
+
 	
 </head>
 <body>
@@ -57,8 +59,10 @@
 					</div><!-- col-sm-4 -->
 			</div><!-- heading-wrapper -->
 			<a class="downlad-btn" href="cv/cv-file.docx">Download CV</a>
+			
 		</div><!-- container -->
 	</header>
+	<div class="circle-frame"></div>
 <!--####################################
 			   INTRO
 #####################################-->	
@@ -269,7 +273,8 @@
 								analyst and the client base during product design and 
 								implementation</b></p>
 					</div><!-- experience -->
-					<div class="experience margin-b-50" data-aos="fade-up" data-aos-anchor="#exp-para4-trigger">
+					<div id="exp-para4-trigger"></div>
+					<div class="experience margin-b-50" data-aos="fade-down" data-aos-anchor="#exp-para4-trigger">
 							<h4><b>NETWORK OPERATIONS ANALYST/WEB DEVELOPER</b></h4>
 							<h5 class="font-yellow"><b>NETWORK ACCESS PRODUCTS&emsp;<span class="job-location">-&emsp;RAMSEY, MINNESOTA</span></b></h5>
 							<h6 class="margin-t-10">DECEMBER 2016 - MAY 2017 - CONTRACT</h6>
@@ -278,7 +283,7 @@
 								policies and operational impact while implementing a job tracking web 
 								application</b></p>
 						</div><!-- experience -->
-						<div id="ed-box1-trigger"></div>
+						
 				</div><!-- col-sm-8 -->
 			</div><!-- row -->
 		</div><!-- container -->
@@ -328,7 +333,6 @@
 				</div><!-- col-sm-8 -->
 			</div><!-- row -->
 		</div><!-- container -->
-		
 	</section><!-- about-section -->
 <!--####################################
 			    COUNTER
@@ -336,13 +340,9 @@
 	<section class="counter-section" id="counter">
 		<div class="container">
 			<div class="row">
-			
-				
-				
-			</div><!-- row-->
+		</div><!-- row-->
 		</div><!-- container-->
     </section><!-- counter-section-->
-	<a class="btn-floating btn-large waves-effect waves-light blue"><i class="material-icons">arrow_drop_up</i></a>
 	<footer>
 		
 
@@ -364,6 +364,6 @@
 	<script src="js/aos.min.js"></script>
 	<script src="js/aos-animation.js"></script>
 	<script src="js/scroll-to-top.js"></script>
-	
+	<script src="js/jquery.backTop.js"></script>
 </body>
 </html>
