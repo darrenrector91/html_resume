@@ -75,7 +75,7 @@ b.max-bold{ font-weight: 700; }
 
 .font-semi-white{ color: #ddd; }
 
-.font-lite-black{ color: #999; }
+.font-lite-black{ color: #999; text-transform: uppercase;}
 
 
 /* ---------------------------------

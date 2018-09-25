@@ -8,7 +8,7 @@
 	<meta charset="UTF-8">
 
 	<!-- Fonts -->
-	<link href="https://fonts.googleapis.com/css?family=Poppins:400,500,600,700%7CAllura" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Poppins:400,500,600,700%7CAllura | Raleway" rel="stylesheet">
 
 	<!-- Stylesheets -->
 	<link href="css/bootstrap.css" rel="stylesheet">
@@ -18,59 +18,39 @@
 	<link href="css/responsive.css" rel="stylesheet">
 	<link href="css/aos.min.css" rel="stylesheet">
 	<link href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" rel="stylesheet">
-	<link href='css/rotating-card.css' rel='stylesheet' />
+	<link href="css/rotating-card.css" rel="stylesheet" />
+
 
 </head>
 
 <body>
-
-	<!-- <div id="profile-pic-trigger"></div> -->
 	<!--####################################
 			HEADER
 #####################################-->
-	<header>
-		<div id="profile-name-trigger"></div>
-		<div id="profile-job-title-trigger"></div>
-		<div id="profile-social-icon-trigger"></div>
+	<div class="navbar navbar-inverse navbar-fixed-top">
 		<div class="container">
-			<div class="heading-wrapper animation">
-				<div class="row">
-					<div class="col-sm-6 col-md-6 col-lg-4">
-						<div class="info">
-							<i class="icon ion-ios-chatboxes-outline"></i>
-							<div class="right-area">
-								<h5><a href="mailto:darren@darrenrector.com">darren@darrenrector.com</a></h5>
-								<h6>REPLY IN 24 HOURS</h6>
-							</div><!-- right-area -->
-						</div><!-- info -->
-					</div><!-- col-sm-4 -->
-					<div class="col-sm-6 col-md-6 col-lg-4">
-						<div class="info">
-							<i class="icon ion-ios-location-outline"></i>
-							<div class="right-area">
-								<h5></h5>
-								<h5>MINNEAPOLIS, MINNESOTA</h5>
-							</div><!-- right-area -->
-						</div><!-- info -->
-					</div><!-- col-sm-4 -->
-					<div class="col-sm-6 col-md-6 col-lg-4">
-						<div class="info">
-							<i class="icon ion-ios-telephone-outline"></i>
-							<div class="right-area">
-								<h5>320.309.0976</h5>
-								<h6>MON - FRI <br> 8AM - 7PM</h6>
-							</div><!-- right-area -->
-						</div><!-- info -->
-					</div><!-- col-sm-4 -->
-				</div><!-- heading-wrapper -->
-				<a class="download-btn" href="cv/cv-file.docx">Download CV</a>
-
-			</div><!-- container -->
-	</header>
+			<a href="#home" class="navbar-brand">Darren</a>
+			<button class="navbar-toggle" data-toggle="collapse" data-target=".navHeaderCollpase">
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span>
+			</button>
+			<div class="collapse navbar-collapse navHeaderCollpase">
+				<ul class="nav navbar-nav navbar-right">
+					<li><a href="#home" class="active">Home</a></li>
+					<li><a href="#portfolio">Portfolio</a></li>
+					<li><a href="#about">About Me</a></li>
+					<li><a href="#work">Work Experience</a></li>
+					<li><a href="#education">Education</a></li>
+					<li><a href="#contact">Contact Me</a></li>
+				</ul>
+			</div>
+		</div>
+	</div>
 	<!--####################################
 			   INTRO
 #####################################-->
-
+	<div id="home"></div>
 	<section class="intro-section" style="background-image: url('images/skyline-slider2.jpg')">
 		<div class="container">
 			<div class="row">
@@ -100,22 +80,24 @@
 	<!--####################################
 			PORTFOLIO
 #####################################-->
-<section class="portfolio-section section">
-	<div class="container">
-		<div class="row">
-			<div class="col-sm-16">
-				<div class="col-sm-4">
-                    <div class="heading">
-                        <h3><b>Portfolio</b></h3>
-                        <h6 class="font-lite-black"><b>MY WORK</b></h6>
-                    </div>
-                </div>
+	<div id="portfolio"></div>
+	<section class="portfolio-section section">
+
+		<div class="container">
+			<div class="row">
+				<!-- <div class="col-sm-16"> -->
+				<div class="col-sm-3">
+					<div class="heading">
+						<h3><b>Portfolio</b></h3>
+						<h6 class="font-lite-black"><b>My Work</b></h6>
+					</div>
+				</div>                     
 				<div class="col-md-3 col-sm-4">
 					<div class="card-container">
 						<div class="card">
 							<div class="front">
 								<div class="cover">
-								<img src="images/fishing-gear.jpg" />
+									<img src="images/fishing-gear.jpg" />
 								</div>
 								<div class="user">
 									<img class="img-circle" src="images/fish-icon.png" />
@@ -127,7 +109,7 @@
 										<p class="text-center"></p>
 									</div>
 									<div class="footer">
-										<i class="fa fa-mail-forward"></i> Description on back
+										<!-- <i class="fas fa-share"></i> Description on back -->
 									</div>
 								</div>
 							</div> <!-- end front panel -->
@@ -171,7 +153,7 @@
 										<p class="text-center"></p>
 									</div>
 									<div class="footer">
-										<i class="fa fa-mail-forward"></i> Description on back
+										<!-- <i class="fa fa-mail-forward"></i> Description on back -->
 									</div>
 								</div>
 							</div> <!-- end front panel -->
@@ -202,21 +184,22 @@
 				</div> <!-- end col sm 3 -->
 			</div> <!-- end col-sm-10 -->
 		</div> <!-- end row -->
-	</div>
-</section>
+		</div>
+	</section>
 	<!--####################################
 			     ABOUT
 #####################################-->
+	<div id="about"></div>
 	<section class="about-section section">
 		<div class="container">
 			<div class="row">
-				<div class="col-sm-4">
+				<div class="col-sm-2">
 					<div class="heading">
 						<h3><b>About me</b></h3>
 						<h6 class="font-lite-black"><b>PROFESSIONAL PATH</b></h6>
 					</div>
 				</div><!-- col-sm-4 -->
-				<div class="col-sm-8">
+				<div class="col-sm-10">
 					<p class="margin-b-50 about-para">
 						Hello! I'm Darren, a web and software developer living
 						in Minnesota. Coding and computers have been a passion of mine since
@@ -235,7 +218,6 @@
 								</div>
 							</div><!-- radial-prog-area-->
 						</div><!-- col-sm-6-->
-
 						<div class="col-sm-6 col-md-6 col-lg-3">
 							<div class="radial-prog-area margin-b-30">
 								<div class="radial-progress" data-prog-percent=".75">
@@ -244,7 +226,6 @@
 								</div>
 							</div>
 						</div>
-
 						<div class="col-sm-6 col-md-6 col-lg-3">
 							<div class="radial-prog-area margin-b-30">
 								<div class="radial-progress" data-prog-percent=".67">
@@ -253,7 +234,6 @@
 								</div>
 							</div><!-- radial-prog-area-->
 						</div><!-- col-sm-6-->
-
 						<div class="col-sm-6 col-md-6 col-lg-3">
 							<div class="radial-prog-area margin-b-30">
 								<div class="radial-progress" data-prog-percent=".50">
@@ -270,7 +250,6 @@
 								</div>
 							</div><!-- radial-prog-area-->
 						</div><!-- col-sm-6-->
-
 					</div><!-- row -->
 				</div><!-- col-sm-8 -->
 			</div><!-- row -->
@@ -279,6 +258,7 @@
 	<!--####################################
 			  EXPERIENCE
 #####################################-->
+	<div id="work"></div>
 	<section class="experience-section section">
 		<div class="container">
 			<div class="row">
@@ -357,6 +337,7 @@
 	<!--####################################
 			   EDUCATION
 #####################################-->
+	<div id="education"></div>
 	<section class="education-section section">
 		<div class="container">
 			<div class="row">
