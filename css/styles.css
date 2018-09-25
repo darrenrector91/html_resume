@@ -91,11 +91,6 @@ b.max-bold{ font-weight: 700; }
 
 }
 
-/* .fas, 
-.far { 
-	margin-right: 10px;
-} */
-
 /* ---------------------------------
 4. INTRO SECTION
 --------------------------------- */
@@ -141,7 +136,13 @@ b.max-bold{ font-weight: 700; }
 
 .intro .social-icons > li > a:hover:after{ -webkit-transform: scale(1); transform: scale(1); }
 
-
+.contact-button {
+	position: absolute;
+    left: 344mm;
+    bottom: 105mm;
+    z-index: 9999;
+    width: 34mm;
+}
 /* ---------------------------------
 5. PORFOLIO SECTION
 --------------------------------- */
@@ -187,7 +188,7 @@ b.max-bold{ font-weight: 700; }
 7. EXPERIENCE SECTION
 --------------------------------- */
 
-.experience-section{ background-image: url("images/minneapolis.png"); color: #fff; }
+.experience-section{ color: #fff; }
 
 .experience .list > li{ display: block; position: relative; margin-bottom: 10px; padding-left: 20px; }
 

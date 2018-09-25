@@ -19,6 +19,8 @@
 	<link href="css/aos.min.css" rel="stylesheet">
 	<link href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" rel="stylesheet">
 	<link href="css/rotating-card.css" rel="stylesheet" />
+	<link href="css/styles.css" rel="stylesheet">
+	<link href="css/form.css" rel="stylesheet">
 
 
 </head>
@@ -52,6 +54,7 @@
 #####################################-->
 	<div id="home"></div>
 	<section class="intro-section" style="background-image: url('images/skyline-slider2.jpg')">
+
 		<div class="container">
 			<div class="row">
 				<div class="col-md-1 col-lg-2"></div>
@@ -69,12 +72,11 @@
 							<li><a href="https://www.linkedin.com/in/darrenrector/"><i class="ion-social-linkedin"></i></a></li>
 							<li><a href="https://github.com/darrenrector91"><i class="ion-social-github"></i></a></li>
 							<li><a href="https://twitter.com/mplscoder"><i class="ion-social-twitter"></i></a></li>
-							<li><a href="mailto:darren@darrenrector.com"><i class="ion-email"></i></a></li>
-
 						</ul>
 					</div><!-- intro -->
 				</div><!-- col-sm-8 -->
 			</div><!-- row -->
+
 		</div><!-- container -->
 	</section><!-- intro-section -->
 	<!--####################################
@@ -83,6 +85,7 @@
 	<div id="portfolio"></div>
 	<section class="portfolio-section section">
 		<div class="container">
+			<button type="button" class="btn btn-info btn-lg turned-button contact-button" data-toggle="modal" data-target="#myModal">Contact</button>
 			<div class="row">
 				<!-- <div class="col-sm-16"> -->
 				<div class="col-sm-2">
@@ -99,7 +102,7 @@
 									<img src="images/fishing-gear.jpg" />
 								</div>
 								<div class="user">
-									<img class="img-circle" src="images/fish-icon.png" />
+									<img class="img-circle circle" src="images/fish-icon.png" />
 								</div>
 								<div class="content">
 									<div class="main">
@@ -143,7 +146,7 @@
 									<img src="images/cyclist-upclose.jpeg" />
 								</div>
 								<div class="user">
-									<img class="img-circle" src="images/bike.png" />
+									<img class="img-circle circle" src="images/bike.png" />
 								</div>
 								<div class="content">
 									<div class="main">
@@ -189,7 +192,7 @@
 									<img src="images/code-screen.jpg" />
 								</div>
 								<div class="user">
-									<img class="img-circle" src="images/image-icon.png" />
+									<img class="img-circle circle" src="images/image-icon.png" />
 								</div>
 								<div class="content">
 									<div class="main">
@@ -216,7 +219,8 @@
 								</div>
 								<div class="footer">
 									<div class="social-links text-center">
-										<a href="https://github.com/darrenrector91/Swapi-Api-MEAN-Stack-App" class="facebook" target="_blank"><i class="fab fa-github fa-fw"></i></a>
+										<a href="https://github.com/darrenrector91/Swapi-Api-MEAN-Stack-App" class="facebook" target="_blank"><i
+											 class="fab fa-github fa-fw"></i></a>
 										<a href="https://giphy-api-search-app.herokuapp.com/#!/search" class="google" target="_blank"><i class="fas fa-code"></i></a>
 									</div>
 								</div>
@@ -422,6 +426,52 @@
 			</div><!-- row -->
 		</div><!-- container -->
 	</section><!-- about-section -->
+	<div class="container">
+		<!-- <div class="container-box rotated">
+			<button type="button" class="btn btn-info btn-lg turned-button" data-toggle="modal" data-target="#myModal">Contact
+				Darren</button>
+		</div> -->
+		<!-- Modal -->
+		<div id="myModal" class="modal fade" role="dialog">
+			<div class="modal-dialog">
+				<!-- Modal content-->
+				<div class="modal-content">
+					<div class="modal-header">
+						<button type="button" class="close" data-dismiss="modal">&times;</button>
+						<h4 class="modal-title">
+							Contact Darren
+						</h4>
+					</div>
+					<div class="modal-body">
+						<form role="form" method="post" id="reused_form">
+							<p> Thank you for reaching out to me! I will get back to you as soon as possible!</p>
+							<div class="form-group">
+								<label for="name"> Name:</label>
+								<input type="text" class="form-control" id="name" name="name" required maxlength="50">
+							</div>
+							<div class="form-group">
+								<label for="email"> Email:</label>
+								<input type="email" class="form-control" id="email" name="email" required maxlength="50">
+							</div>
+							<div class="form-group">
+								<label for="name"> Message:</label>
+								<textarea class="form-control" type="textarea" name="message" id="message" placeholder="Your Message Here"
+								 maxlength="6000" rows="7"></textarea>
+							</div>
+							<button type="submit" class="btn btn-lg btn-success btn-block" id="btnContactUs"><i class="fas fa-share-square"
+								 style="margin-right: 10px;"></i>Send</button>
+						</form>
+						<div id="success_message" style="width:100%; height:100%; display:none; ">
+							<h3>Your message has been sent successfully!</h3>
+						</div>
+						<div id="error_message" style="width:100%; height:100%; display:none; ">
+							<h3>Error!</h3> Sorry there was an issue sending your form. Try again later.
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
 	<!--####################################
 			    COUNTER
 #####################################-->
@@ -453,6 +503,8 @@
 	<script src="js/aos-animation.js"></script>
 	<script src="js/scroll-to-top.js"></script>
 	<script src="js/jquery.backTop.js"></script>
+	<script src="js/form.js"></script>
+
 </body>
 
 </html>
