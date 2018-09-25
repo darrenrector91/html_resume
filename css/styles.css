@@ -84,7 +84,8 @@ b.max-bold{ font-weight: 700; }
 
 header{ position: absolute; top: 30px; left: 0; right: 0; z-index: 100; }
 
-header .heading-wrapper{ border-radius: 5px; padding: 30px 40px 20px; background: rgb(0, 33, 69); color: #fff; }
+header .heading-wrapper{     border-radius: 5px; padding: 30px 40px 20px; background: rgba(0, 33, 69, 0.6);
+    color: #fff; }
 
 header .info{ margin-bottom: 10px; }
 
@@ -111,7 +112,7 @@ header .download-btn:hover{ -webkit-transform: translateY(-4px); transform: tran
 --------------------------------- */
 
 .intro-section{ padding-top: 200px; position: relative; background-size: cover; 
-	z-index: 1;  background-image: url("skyline-slider2.jpg"); }
+	z-index: 1;  background-image: url("/skyline-slider2.jpg"); }
 
 .intro-section:before{ content:''; z-index: -1; position: absolute; top: 0; bottom: 0; left: 0; 
 	right: 0; background: rgba(0,0,0, .2); }
