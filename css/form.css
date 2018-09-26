@@ -4,14 +4,6 @@ body {
     height: 100%;
 }
 
-/* .container 
-{
-    height: 100%;
-    width:100%;
-    background-image: url("images/dinner-table-444434_1920.jpg");
-	background-size: cover;
-	background-repeat:no-repeat;    
-} */
 .container-box
 {
 	display:inline-block; 
@@ -40,13 +32,6 @@ body {
     transform-origin: top left;  
 }
 
-/* .contact-button {
-	position: absolute;
-    left: 344mm;
-    bottom: 105mm;
-    z-index: 9999;
-    width: 34mm;
-} */
 
 
 
