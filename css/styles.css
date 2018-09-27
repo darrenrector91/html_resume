@@ -145,7 +145,7 @@ b.max-bold{ font-weight: 700; }
 5. PORFOLIO SECTION
 --------------------------------- */
 
-.portfolio-section{ padding-bottom: 0; }
+.portfolio-section{ padding-bottom: 15mm; }
 
 .portfolio-section .portfolioFilter{ margin-top: 60px; color: #666; }
 
